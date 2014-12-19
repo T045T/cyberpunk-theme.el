@@ -253,10 +253,11 @@
    `(company-tooltip-common ((,class (:inherit company-tooltip :foreground ,cyberpunk-blue))))
    `(company-tooltip-common-selection ((,class (:inherit company-tooltip-selection :foreground ,cyberpunk-blue))))
    `(company-tooltip-selection ((,class (:foreground ,cyberpunk-black :background ,cyberpunk-pink-1))))
-   `(company-tooltip-annotation ((,class (:foreground ,cyberpunk-black-3))))
-   `(company-scrollbar-fg ((,class (:background ,cyberpunk-black-3))))
+   `(company-tooltip-annotation ((,class (:inherit company-tooltip :foreground ,cyberpunk-black-3))))
+   `(company-scrollbar-fg ((,class (:background ,cyberpunk-blue-5))))
    `(company-scrollbar-bg ((,class (:background ,cyberpunk-gray-5))))
    `(company-preview ((,class (:foreground ,cyberpunk-gray :background ,cyberpunk-pink-1))))
+   `(company-preview-common ((,class (:inherit company-preview :foreground ,cyberpunk-black-3))))
 
    ;; diff
    `(diff-added ((,class (:foreground ,cyberpunk-green))))
@@ -441,7 +442,7 @@
    `(jabber-title-large ((,class (:height 1.3 :weight bold))))
 
    ;; linum-mode
-   `(linum ((,class (:foreground ,cyberpunk-green+2 :background ,cyberpunk-bg))))
+   `(linum ((,class (:foreground ,cyberpunk-green+2 :background ,cyberpunk-bg-1))))
 
    ;; magit
    `(magit-section-title ((,class (:foreground ,cyberpunk-pink-1))))
